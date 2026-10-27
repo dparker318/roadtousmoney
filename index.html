@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Your Path to Working in the USA</title>
+<style>
+:root{--fb:#002d62;--fr:#ce1126;--fx:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#f6f7fb;--card:#fff;--ink:#17203a;--muted:#5b6482;--blue:#1d4ed8;--red:#e11d48;--ok:#059669;--line:#e3e6f0;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--fb:#0a1a3d;--fr:#6d0f1d;--fx:#aeb8d6;--bg:#0e1326;--card:#171d36;--ink:#eef1fb;--muted:#a3accb;--blue:#6d96ff;--red:#ff6b8b;--ok:#34d399;--line:#2a3256;color-scheme:dark}}
+:root[data-theme="dark"]{--fb:#0a1a3d;--fr:#6d0f1d;--fx:#aeb8d6;--bg:#0e1326;--card:#171d36;--ink:#eef1fb;--muted:#a3accb;--blue:#6d96ff;--red:#ff6b8b;--ok:#34d399;--line:#2a3256;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;min-height:100vh;background:linear-gradient(var(--fx),var(--fx)) center/100% 44px no-repeat,linear-gradient(var(--fx),var(--fx)) center/44px 100% no-repeat,conic-gradient(var(--fr) 0 25%,var(--fb) 0 50%,var(--fr) 0 75%,var(--fb) 0);background-attachment:fixed;color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:16px}
+.hero{background:linear-gradient(135deg,var(--blue),var(--red));color:#fff;border-radius:20px;padding:28px 22px;text-align:center}
+.hero h1{margin:0 0 8px;font-size:1.8rem;line-height:1.2}
+.hero p{margin:0;opacity:.95}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin-top:16px}
+h2{margin:0 0 10px;font-size:1.2rem}
+.btn{display:block;width:100%;text-align:left;margin:8px 0;padding:13px 15px;border:2px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);font:inherit;cursor:pointer;transition:.15s}
+.btn:hover,.btn:focus-visible{border-color:var(--blue);transform:translateY(-1px)}
+.c{text-align:center}
+.muted{color:var(--muted);font-size:.92rem}
+.pill{display:inline-block;background:var(--blue);color:#fff;border-radius:99px;padding:2px 10px;font-size:.8rem}
+.bar{height:16px;background:var(--line);border-radius:99px;position:relative;margin:14px 0 6px}
+.fill{height:100%;width:0;background:linear-gradient(90deg,var(--blue),var(--red));border-radius:99px;transition:width .5s}
+.plane{position:absolute;top:-10px;left:0;font-size:22px;transition:left .5s;transform:translateX(-50%)}
+.step{display:flex;gap:12px;align-items:flex-start;padding:12px;border:2px solid var(--line);border-radius:12px;margin:10px 0;cursor:pointer}
+.step.done{border-color:var(--ok);opacity:.8}
+.step input{width:22px;height:22px;margin-top:3px;accent-color:var(--ok);flex:none}
+.step b{display:block}
+.step.done b{text-decoration:line-through}
+.badge{font-size:1.05rem;font-weight:700}
+.link{color:var(--blue)}
+.pop{position:fixed;left:0;right:0;top:35%;text-align:center;font-size:3rem;pointer-events:none;animation:up 1.4s forwards}
+@keyframes up{to{transform:translateY(-120px);opacity:0}}
+.chip{display:inline-block;border:2px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;padding:6px 12px;margin:0 6px 6px 0;font:inherit;cursor:pointer}.chip.on{background:var(--blue);border-color:var(--blue);color:#fff}
+.site{border:2px solid var(--line);border-radius:12px;padding:12px;margin:10px 0}
+.site a{color:var(--blue);font-weight:700}
+.late{border-color:var(--red)}
+.fcard{min-height:150px;border:2px solid var(--blue);border-radius:16px;padding:18px;cursor:pointer;text-align:center;margin:10px 0}.fcard.flip{border-color:var(--ok)}
+.sp{float:right;border:0;background:none;font-size:1.2rem;cursor:pointer}
+label{display:block;font-weight:600;margin-top:10px}
+input,textarea{width:100%;box-sizing:border-box;padding:10px;margin-top:4px;border:2px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:inherit}
+.step input{width:22px;padding:0}
+.paper{background:#fff;color:#111;border:1px solid var(--line);padding:22px;font:14px/1.4 Georgia,serif;border-radius:6px;margin-bottom:12px}
+.paper h3{margin:0;font-size:1.7rem}.paper .sm{font-size:.85rem;color:#555}
+.paper .sec{font:700 .8rem system-ui,sans-serif;letter-spacing:.08em;border-bottom:2px solid #111;margin:14px 0 6px;padding-bottom:2px}
+.paper ul{margin:4px 0 8px;padding-left:20px}
+.paper.classic .hd{text-align:center}
+.paper.modern .hd{background:#002d62;color:#fff;margin:-22px -22px 10px;padding:18px 22px}.paper.modern .hd .sm{color:#dbe4ff}
+.paper.modern .sec{color:#ce1126;border-color:#ce1126}
+@media print{body *{visibility:hidden}#paper,#paper *{visibility:visible}#paper{position:absolute;left:0;top:0;width:100%;border:0}body{background:#fff}}
+[hidden]{display:none!important}
+</style></head><body><div class="wrap">
+
+<div class="hero"><div style="font-size:2.4rem">✈️🇩🇴➡️🇺🇸</div>
+<h1 data-t="h1"></h1><p data-t="hp"></p></div>
+<div id="lang" style="margin-top:14px"><button class="chip" data-l="en">🇺🇸 English</button><button class="chip" data-l="es">🇩🇴 Español</button></div>
+<div id="nav"><button class="chip" data-v="map" data-t="n_map"></button><button class="chip" data-v="res" data-t="n_res"></button><button class="chip" data-v="prep" data-t="n_prep"></button><button class="chip" data-v="plan" data-t="n_plan"></button></div>
+
+<div id="mapview">
+<div class="card" id="quiz"></div>
+<div id="result" hidden><div class="card"><span class="pill" id="lvl"></span>
+<h2 id="ptitle" style="margin-top:8px"></h2><p id="pdesc" class="muted"></p>
+<div class="bar"><div class="fill" id="fill"></div><div class="plane" id="plane">✈️</div></div>
+<div class="muted" id="count"></div><div class="badge" id="badge"></div>
+<div id="steps"></div>
+<button class="btn c" id="redo" data-t="redo"></button></div></div>
+<div class="card"><h2 data-t="j_h"></h2><p class="muted" data-t="j_p"></p>
+<div id="chips"></div><div id="sites"></div><p class="muted" data-t="j_g"></p></div>
+<div class="card"><h2 data-t="o_h"></h2><p id="off"></p></div>
+</div>
+
+<div id="resview" hidden>
+<div class="card"><h2 data-t="r_h"></h2><p class="muted" data-t="r_p"></p>
+<button class="btn c" id="sample" data-t="r_s"></button>
+<p class="muted" style="margin:10px 0 4px" data-t="r_t"></p>
+<div id="tpls"><button class="chip" data-t="r_c" data-tp="classic"></button><button class="chip" data-t="r_m" data-tp="modern"></button></div>
+<div id="form"></div></div>
+<div class="card"><h2 data-t="r_v"></h2><div id="paper"></div>
+<button class="btn c" id="pdf" style="font-weight:700" data-t="r_d"></button><div class="muted" id="msg"></div></div>
+</div>
+
+<div id="prepview" hidden>
+<div class="card"><h2 data-t="p_h"></h2><p class="muted" data-t="p_p"></p>
+<div class="fcard" id="qc"></div>
+<div class="muted c" id="qn"></div>
+<div style="display:flex;gap:8px"><button class="btn c" id="hear" data-t="hear"></button><button class="btn c" id="sh" data-t="shuf"></button><button class="btn c" id="nx" data-t="next"></button></div></div>
+<div class="card"><h2 data-t="ph_h"></h2><p class="muted" data-t="ph_p"></p><div id="pchips"></div><div id="phr"></div></div>
+</div>
+
+<div id="planview" hidden>
+<div class="card"><h2 data-t="pl_h"></h2><p class="muted" data-t="pl_p"></p>
+<label><span data-t="pl_d"></span><input type="date" id="sd"></label><div id="tl"></div></div>
+<div class="card"><h2 data-t="b_h"></h2><p class="muted" data-t="b_p"></p><div id="bl"></div>
+<p class="badge"><span data-t="b_t"></span> <span id="bt">$0</span></p></div>
+</div>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+var $=function(i){return document.getElementById(i)};
+var L="en";try{L=localStorage.getItem("vl")||((navigator.language||"en").slice(0,2)==="es"?"es":"en")}catch(e){}
+function P(a){return a[L==="es"?1:0]}
+var D={
+h1:["Your Path to Working in the USA","Tu camino para trabajar en EE. UU."],
+hp:["Answer 2 quick questions, get your own step-by-step map, and check off each win as you go.","Responde 2 preguntas rápidas, recibe tu mapa paso a paso y marca cada logro."],
+n_map:["🗺️ Visa Map","🗺️ Mapa de visa"],n_res:["📄 Resume","📄 Currículum"],n_prep:["🎤 Interview","🎤 Entrevista"],n_plan:["📅 Planner","📅 Planificador"],
+redo:["↺ Start over","↺ Empezar de nuevo"],lvl:["Level: ","Nivel: "],done:["steps done","pasos completados"],stp:["Step","Paso"],
+fin:["🏆 You finished the whole map! Go get that visa!","🏆 ¡Completaste todo el mapa! ¡A conseguir esa visa!"],
+j_h:["💼 Where to look for jobs","💼 Dónde buscar trabajo"],j_p:["Tap a filter to see sites for your kind of work.","Toca un filtro para ver sitios para tu tipo de trabajo."],
+j_g:["<b>Golden rule:</b> a real employer or recruiter pays the recruitment costs. If anyone asks you to pay for a job offer, walk away.","<b>Regla de oro:</b> un empleador o reclutador real paga los costos de reclutamiento. Si alguien te pide dinero por una oferta de trabajo, aléjate."],
+o_h:["🔗 Official sites only","🔗 Solo sitios oficiales"],
+r_h:["📄 Resume Builder","📄 Creador de currículum"],
+r_p:["Fill in the boxes, watch your resume appear, then download it as a PDF. US resumes usually have no photo, age, or marital status, and fit on one page. Your resume stays in English because US employers will read it.","Llena los campos, mira cómo aparece tu currículum y descárgalo en PDF. Los currículums de EE. UU. normalmente no llevan foto, edad ni estado civil, y caben en una página. Tu currículum queda en inglés porque lo leerán empleadores de EE. UU."],
+r_s:["✨ Fill with an example","✨ Llenar con un ejemplo"],r_t:["Pick a template:","Elige una plantilla:"],r_c:["Classic","Clásica"],r_m:["Modern","Moderna"],r_v:["👀 Preview","👀 Vista previa"],r_d:["⬇️ Download PDF","⬇️ Descargar PDF"],
+r_w:["Work experience","Experiencia laboral"],r_rm:["Remove this job","Quitar este trabajo"],r_add:["+ Add another job","+ Agregar otro trabajo"],
+f_sum:["Short summary (2 or 3 sentences about you and what you do best)","Resumen corto (2 o 3 frases sobre ti y lo que haces mejor)"],f_jt:["Job title","Cargo"],f_jc:["Employer and place","Empleador y lugar"],f_jd:["Dates (example: 2021 to 2024)","Fechas (ejemplo: 2021 to 2024)"],f_jb:["What you did (one thing per line)","Lo que hacías (una cosa por línea)"],
+f_edu:["Education (one line each: school, studies, year)","Educación (una línea cada una: escuela, estudios, año)"],f_sk:["Skills (separate with commas)","Habilidades (separadas por comas)"],f_lg:["Languages (example: Spanish native, English basic)","Idiomas (ejemplo: Spanish native, English basic)"],
+r_ok:["Done! Check your downloads. 🎉","¡Listo! Revisa tus descargas. 🎉"],r_no:["No problem, download cancelled.","Sin problema, descarga cancelada."],r_er:["Could not save the PDF. Please try again.","No se pudo guardar el PDF. Inténtalo de nuevo."],
+r_lib:["The PDF tool did not load. Check your connection and try again.","La herramienta de PDF no cargó. Revisa tu conexión e inténtalo de nuevo."],r_pr:["Opening print. Choose Save as PDF.","Abriendo impresión. Elige Guardar como PDF."],
+p_h:["🎤 Interview Practice","🎤 Práctica de entrevista"],p_p:["Tap the card to flip it. Say your answer out loud first, then check the tip. Practice in English and in Spanish.","Toca la tarjeta para voltearla. Di tu respuesta en voz alta primero y luego mira el consejo. Practica en inglés y en español."],
+tap:["Tap to see the tip","Toca para ver el consejo"],tip:["💡 Tip","💡 Consejo"],hear:["🔊 Hear it","🔊 Escúchala"],next:["Next →","Siguiente →"],shuf:["🎲 Random","🎲 Al azar"],
+ph_h:["💬 English phrases","💬 Frases en inglés"],ph_p:["Tap 🔊 to hear a phrase. Replace each ___ with your own details.","Toca 🔊 para escuchar una frase. Cambia cada ___ por tus datos."],
+pl_h:["📅 Timeline Planner","📅 Planificador de fechas"],pl_p:["Pick your job start date to see a rough timeline working backwards. Real wait times vary a lot, so use this as a guide and check the embassy’s current wait times.","Elige tu fecha de inicio de trabajo para ver un calendario aproximado hacia atrás. Los tiempos reales varían mucho, así que úsalo como guía y revisa los tiempos de espera actuales de la embajada."],
+pl_d:["Job start date","Fecha de inicio del trabajo"],pl_late:["⚠️ This date has passed. Ask about moving faster or a later start.","⚠️ Esta fecha ya pasó. Pregunta si se puede ir más rápido o empezar más tarde."],pl_today:["Today!","¡Hoy!"],pl_days:["days from today","días a partir de hoy"],
+b_h:["💵 Cost Tracker","💵 Control de gastos"],b_p:["Type what you expect to spend, in US dollars. Check travel.state.gov for the current visa fee. For H-2 jobs, employers generally have to pay or reimburse visa fees and some travel costs, so ask them in writing.","Escribe cuánto esperas gastar, en dólares. Revisa travel.state.gov para la tarifa actual de la visa. En los trabajos H-2, los empleadores generalmente deben pagar o reembolsar las tarifas de visa y algunos gastos de viaje, así que pregúntales por escrito."],b_t:["Total:","Total:"]};
+function T(k){return P(D[k])}
+var Q=[
+{q:["1. Do you already have a job offer from a US employer?","1. ¿Ya tienes una oferta de trabajo de un empleador en EE. UU.?"],a:[[["✅ Yes, I have an offer","✅ Sí, tengo una oferta"],"y"],[["🔍 Not yet","🔍 Todavía no"],"n"]]},
+{q:["2. What kind of work is it (or do you want)?","2. ¿Qué tipo de trabajo es (o quieres)?"],a:[[["🌾 Farm or agriculture","🌾 Agricultura o campo"],"farm"],[["🏨 Seasonal work: hotels, landscaping, seafood, resorts","🏨 Trabajo de temporada: hoteles, jardinería, mariscos, resorts"],"seasonal"],[["🎓 Professional job that needs a college degree","🎓 Trabajo profesional que requiere título universitario"],"pro"],[["🛠️ Something else, long term","🛠️ Otra cosa, a largo plazo"],"other"]]}];
+var PATHS={
+farm:{t:["🌾 Your path: H-2A (farm work visa)","🌾 Tu camino: H-2A (visa de trabajo agrícola)"],d:["A temporary visa for agricultural jobs. The Dominican Republic has been on the eligible list for this one.","Una visa temporal para trabajos agrícolas. La República Dominicana ha estado en la lista de países elegibles."],s:[
+["Your employer starts the process","Tu empleador inicia el proceso","The farm gets approval from the US Department of Labor, then files a petition with USCIS. You cannot file this part yourself.","La finca obtiene la aprobación del Departamento de Trabajo de EE. UU. y luego presenta una petición ante USCIS. Tú no puedes hacer esta parte."],
+["Get your approval notice","Recibe tu aviso de aprobación","After USCIS approves, the employer sends you the approval notice (Form I-797) and job details. Keep copies safe.","Cuando USCIS aprueba, el empleador te envía el aviso de aprobación (Formulario I-797) y los detalles del trabajo. Guarda copias."]]},
+seasonal:{t:["🏨 Your path: H-2B (seasonal non-farm visa)","🏨 Tu camino: H-2B (visa de temporada, no agrícola)"],d:["A temporary visa for seasonal jobs outside farming. There is a yearly limit, so employers apply months ahead. The Dominican Republic has appeared on this list, but it is renewed every year, so confirm it is current.","Una visa temporal para trabajos de temporada fuera del campo. Hay un límite anual, así que los empleadores aplican con meses de anticipación. La República Dominicana ha aparecido en esta lista, pero se renueva cada año, así que confirma que esté vigente."],s:[
+["Your employer starts the process","Tu empleador inicia el proceso","They get Department of Labor approval, then file a petition with USCIS. Ask them early, because spots run out.","Obtienen la aprobación del Departamento de Trabajo y luego presentan una petición ante USCIS. Pregúntales temprano, porque los cupos se agotan."],
+["Get your approval notice","Recibe tu aviso de aprobación","After approval, the employer sends you the notice (Form I-797) and job details. Keep copies safe.","Tras la aprobación, el empleador te envía el aviso (Formulario I-797) y los detalles del trabajo. Guarda copias."]]},
+pro:{t:["🎓 Your path: H-1B (professional visa)","🎓 Tu camino: H-1B (visa profesional)"],d:["For jobs that require a college degree. It is competitive and the employer does most of the work.","Para trabajos que requieren título universitario. Es muy competitiva y el empleador hace la mayor parte del trabajo."],s:[
+["Your employer enters the yearly selection","Tu empleador entra a la selección anual","Employers usually register in March for a lottery, then file a petition if selected. Recent rule changes added costs, so ask the employer’s attorney what applies to you.","Los empleadores normalmente se registran en marzo para un sorteo y presentan la petición si son seleccionados. Cambios recientes agregaron costos, así que pregunta al abogado del empleador qué te aplica."],
+["Get your approval notice","Recibe tu aviso de aprobación","After approval you receive Form I-797 and your job details. Keep copies safe.","Tras la aprobación recibes el Formulario I-797 y los detalles del trabajo. Guarda copias."]]},
+other:{t:["🛠️ Your path: Employer-sponsored green card","🛠️ Tu camino: residencia (green card) patrocinada por el empleador"],d:["For long-term jobs the employer sponsors you for permanent residence. It can take years and an immigration attorney is strongly recommended.","En trabajos a largo plazo, el empleador te patrocina para la residencia permanente. Puede tardar años y se recomienda mucho un abogado de inmigración."],s:[
+["Your employer starts the green card process","Tu empleador inicia el proceso de residencia","This usually means a labor certification and a petition (Form I-140). The employer pays for this, not you.","Normalmente incluye una certificación laboral y una petición (Formulario I-140). Esto lo paga el empleador, no tú."],
+["Wait for your priority date and notice","Espera tu fecha de prioridad y tu aviso","Waits vary a lot by job type and country. Your employer’s attorney can tell you where you stand.","Las esperas varían mucho según el tipo de trabajo y el país. El abogado de tu empleador puede decirte cómo vas."]]}};
+var FIND=["Find a real sponsor first","Primero encuentra un patrocinador real","No US employer, no work visa. Look for real jobs in the Jobs section below. A real employer never asks you to pay for the job offer.","Sin empleador en EE. UU., no hay visa de trabajo. Busca trabajos reales en la sección de empleos más abajo. Un empleador real nunca te pide dinero por la oferta."];
+var COMMON=[
+["Check your passport","Revisa tu pasaporte","You need a valid passport. If it is expired or close to expiring, renew it first.","Necesitas un pasaporte vigente. Si está vencido o por vencer, renuévalo primero."],
+["Fill out the DS-160","Llena el formulario DS-160","This is the online visa application at ceac.state.gov. Match your passport name exactly and save the confirmation page with the barcode.","Es la solicitud de visa en línea en ceac.state.gov. Usa tu nombre exactamente como en el pasaporte y guarda la página de confirmación con el código de barras."],
+["Pay the fee and book your interview","Paga la tarifa y agenda tu entrevista","Use the official system for the US Embassy in Santo Domingo. Fees change, so check travel.state.gov for the current amount.","Usa el sistema oficial de la Embajada de EE. UU. en Santo Domingo. Las tarifas cambian, revisa travel.state.gov para el monto actual."],
+["Gather your documents","Reúne tus documentos","Passport, DS-160 confirmation, approval notice, interview letter, photo, job offer letter, and proof of ties to the Dominican Republic like family or property.","Pasaporte, confirmación del DS-160, aviso de aprobación, carta de la entrevista, foto, carta de oferta de trabajo y pruebas de tus vínculos con la República Dominicana, como familia o propiedades."],
+["Ace the interview","Triunfa en la entrevista","Be honest, keep answers short and clear, and know your job, employer, and dates by heart. Practice in the Interview tab!","Sé honesto, responde corto y claro, y sabe de memoria tu trabajo, tu empleador y tus fechas. ¡Practica en la pestaña Entrevista!"],
+["Visa approved! Get ready to fly","¡Visa aprobada! Prepárate para viajar","The visa goes in your passport. You can usually enter the US up to 10 days before your job start date. Bring your documents in your carry-on.","La visa va en tu pasaporte. Normalmente puedes entrar a EE. UU. hasta 10 días antes de tu fecha de inicio. Lleva tus documentos en el equipaje de mano."]];
+var LV=[["Rookie","Novato"],["Explorer","Explorador"],["Navigator","Navegante"],["Pro","Pro"],["Almost there","Casi llegas"],["Cleared for takeoff","Listo para despegar"]];
+var ans=[],key="",steps=[],done={};
+function st(s,i){return L==="es"?s[i+1]:s[i]}
+function save(){try{localStorage.setItem("vp:"+key,JSON.stringify(done))}catch(e){}}
+function load(){try{done=JSON.parse(localStorage.getItem("vp:"+key))||{}}catch(e){done={}}}
+function ask(){var i=ans.length,h="";if(i>=Q.length){show();return}
+h="<h2>"+P(Q[i].q)+"</h2>";Q[i].a.forEach(function(o,j){h+='<button class="btn" data-j="'+j+'">'+P(o[0])+"</button>"});
+$("quiz").hidden=false;$("result").hidden=true;$("quiz").innerHTML=h;
+$("quiz").querySelectorAll(".btn").forEach(function(b){b.onclick=function(){ans.push(Q[i].a[b.dataset.j][1]);ask();if(ans.length>=Q.length)window.scrollTo(0,0)}})}
+function show(){var p=PATHS[ans[1]];key=ans.join("-");load();steps=(ans[0]==="n"?[FIND]:[]).concat(p.s,COMMON);
+$("quiz").hidden=true;$("result").hidden=false;$("ptitle").textContent=P(p.t);$("pdesc").textContent=P(p.d);draw()}
+function draw(){var h="",n=0;
+steps.forEach(function(s,i){var d=!!done[i];if(d)n++;
+h+='<label class="step'+(d?" done":"")+'"><input type="checkbox" data-i="'+i+'"'+(d?" checked":"")+'><span><b>'+T("stp")+" "+(i+1)+": "+st(s,0)+"</b><span class='muted'>"+st(s,2)+"</span></span></label>"});
+$("steps").innerHTML=h;var pc=Math.round(n/steps.length*100);
+$("fill").style.width=pc+"%";$("plane").style.left=Math.max(pc,3)+"%";
+$("lvl").textContent=T("lvl")+P(LV[Math.min(5,Math.floor(n/steps.length*5.99))]);
+$("count").textContent=n+" / "+steps.length+" "+T("done");
+$("badge").textContent=n===steps.length?T("fin"):"";
+$("steps").querySelectorAll("input").forEach(function(c){c.onchange=function(){done[c.dataset.i]=c.checked;save();if(c.checked)pop();draw()}})}
+function pop(){var e=document.createElement("div");e.className="pop";e.textContent=["🎉","⭐","🚀","✅","🔥"][Math.floor(Math.random()*5)];document.body.appendChild(e);setTimeout(function(){e.remove()},1400)}
+$("redo").onclick=function(){ans=[];ask();window.scrollTo(0,0)};
+var SITES=[
+["SeasonalJobs.dol.gov","https://seasonaljobs.dol.gov","🇺🇸","farm seasonal","Official US government list of certified H-2A and H-2B jobs, in English and Spanish. You can’t apply on the site itself. Use the recruitment contact on each listing to reach the employer.","Lista oficial del gobierno de EE. UU. de trabajos H-2A y H-2B certificados, en inglés y español. No puedes aplicar en el sitio. Usa el contacto de reclutamiento de cada anuncio para escribirle al empleador."],
+["CoolWorks","https://www.coolworks.com","🏔️","seasonal","Seasonal jobs at resorts, national parks and camps. Heads up: most employers there can’t hire people who need an H-2B visa, so only apply to ads that say they accept H-2B or visa applicants.","Trabajos de temporada en resorts, parques nacionales y campamentos. Ojo: la mayoría de esos empleadores no puede contratar a personas que necesitan visa H-2B, así que aplica solo a anuncios que digan que aceptan H-2B o solicitantes con visa."],
+["H1BVisaJobs","https://h1bvisajobs.com","🎓","pro","Jobs from employers that sponsor H-1B visas, for professional roles that need a college degree.","Empleos de empresas que patrocinan visas H-1B, para puestos profesionales que requieren título universitario."],
+["MyVisaJobs","https://www.myvisajobs.com","🔎","pro","Look up which companies have sponsored visas before, so you can target employers who already know the process.","Busca qué empresas han patrocinado visas antes, para enfocarte en empleadores que ya conocen el proceso."],
+["LinkedIn Jobs","https://www.linkedin.com/jobs","🔗","pro seasonal","Indeed works too. Search words like “visa sponsorship” or “H-2B” and read every ad carefully.","Indeed también sirve. Busca palabras como “visa sponsorship” o “H-2B” y lee cada anuncio con cuidado."],
+["Contratados.org","https://www.contratados.org","🛡️","safety","Workers share reviews of recruiters and employers. Check a name here before you trust anyone.","Los trabajadores comparten opiniones sobre reclutadores y empleadores. Busca un nombre aquí antes de confiar en alguien."]];
+var CH=[["all","⭐ All","⭐ Todos"],["farm","🌾 Farm","🌾 Campo"],["seasonal","🏨 Seasonal","🏨 Temporada"],["pro","🎓 Professional","🎓 Profesional"],["safety","🛡️ Safety","🛡️ Seguridad"]],cur="all";
+var OF=[["travel.state.gov","https://travel.state.gov","(visa info and fees)","(información y tarifas de visa)"],["ceac.state.gov","https://ceac.state.gov","(DS-160 form)","(formulario DS-160)"],["do.usembassy.gov","https://do.usembassy.gov","(US Embassy Santo Domingo)","(Embajada de EE. UU. en Santo Domingo)"],["uscis.gov","https://www.uscis.gov","(check employer petitions)","(revisa las peticiones del empleador)"],["seasonaljobs.dol.gov","https://seasonaljobs.dol.gov","(real H-2A and H-2B jobs)","(trabajos reales H-2A y H-2B)"]];
+function jobs(){var h="",c="",o="";CH.forEach(function(x){c+='<button class="chip'+(x[0]===cur?" on":"")+'" data-k="'+x[0]+'">'+P(x.slice(1))+"</button>"});
+SITES.forEach(function(s){if(cur==="all"||s[3].indexOf(cur)>-1)h+='<div class="site"><a href="'+s[1]+'" target="_blank" rel="noopener">'+s[2]+" "+s[0]+'</a><div class="muted">'+P(s.slice(4))+"</div></div>"});
+OF.forEach(function(x){o+='<a class="link" href="'+x[1]+'" target="_blank" rel="noopener">'+x[0]+"</a> "+P(x.slice(2))+"<br>"});
+$("chips").innerHTML=c;$("sites").innerHTML=h;$("off").innerHTML=o;
+$("chips").querySelectorAll(".chip").forEach(function(b){b.onclick=function(){cur=b.dataset.k;jobs()}})}
+var RF=[["name","Full name","Nombre completo"],["title","Job you want (example: Housekeeper, Cook, Farm Worker)","Trabajo que quieres (ejemplo: Housekeeper, Cook, Farm Worker)"],["place","City and country","Ciudad y país"],["phone","Phone or WhatsApp (with country code)","Teléfono o WhatsApp (con código de país)"],["email","Email","Correo electrónico"]];
+function blank(){return{t:"",c:"",d:"",b:""}}
+var R={tpl:"classic",name:"",title:"",place:"",phone:"",email:"",sum:"",skills:"",edu:"",lang:"",exp:[blank()]};
+try{var sv=JSON.parse(localStorage.getItem("rv"));if(sv&&sv.exp)for(var k in sv)R[k]=sv[k]}catch(e){}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function lines(s){return String(s).split("\n").map(function(x){return x.trim()}).filter(Boolean)}
+function field(k,l,ta){return"<label>"+l+(ta?'<textarea rows="3" data-k="'+k+'">'+esc(R[k])+"</textarea>":'<input data-k="'+k+'" value="'+esc(R[k])+'">')+"</label>"}
+function buildForm(){var h="";RF.forEach(function(f){h+=field(f[0],P(f.slice(1)))});
+h+=field("sum",T("f_sum"),1)+'<h2 style="margin-top:18px">'+T("r_w")+"</h2>";
+R.exp.forEach(function(e,i){var a=' data-e="'+i+'" data-f=';
+h+='<div class="site"><label>'+T("f_jt")+"<input"+a+'"t" value="'+esc(e.t)+'"></label><label>'+T("f_jc")+"<input"+a+'"c" value="'+esc(e.c)+'"></label><label>'+T("f_jd")+"<input"+a+'"d" value="'+esc(e.d)+'"></label><label>'+T("f_jb")+'<textarea rows="4"'+a+'"b">'+esc(e.b)+"</textarea></label>"+(R.exp.length>1?'<button class="chip" style="margin-top:10px" data-a="del" data-e="'+i+'">'+T("r_rm")+"</button>":"")+"</div>"});
+if(R.exp.length<4)h+='<button class="chip" data-a="add">'+T("r_add")+"</button>";
+h+=field("edu",T("f_edu"),1)+field("skills",T("f_sk"),1)+field("lang",T("f_lg"));$("form").innerHTML=h}
+function upd(){var c=[R.place,R.phone,R.email].filter(Boolean).map(esc).join(" · "),ex="",h;
+h='<div class="hd"><h3>'+esc(R.name||"Your Name")+"</h3><div>"+esc(R.title)+'</div><div class="sm">'+c+"</div></div>";
+if(R.sum.trim())h+='<div class="sec">SUMMARY</div><div>'+esc(R.sum)+"</div>";
+R.exp.forEach(function(e){if(!(e.t||e.c))return;ex+="<div><b>"+esc(e.t)+"</b>"+(e.c?", "+esc(e.c):"")+(e.d?' <span class="sm">('+esc(e.d)+")</span>":"")+"</div>";var b=lines(e.b);if(b.length)ex+="<ul>"+b.map(function(x){return"<li>"+esc(x)+"</li>"}).join("")+"</ul>"});
+if(ex)h+='<div class="sec">EXPERIENCE</div>'+ex;
+if(R.edu.trim())h+='<div class="sec">EDUCATION</div>'+lines(R.edu).map(function(x){return"<div>"+esc(x)+"</div>"}).join("");
+if(R.skills.trim())h+='<div class="sec">SKILLS</div><div>'+esc(R.skills)+"</div>";
+if(R.lang.trim())h+='<div class="sec">LANGUAGES</div><div>'+esc(R.lang)+"</div>";
+$("paper").className="paper "+R.tpl;$("paper").innerHTML=h;
+$("tpls").querySelectorAll(".chip").forEach(function(b){b.classList.toggle("on",b.dataset.tp===R.tpl)});
+try{localStorage.setItem("rv",JSON.stringify(R))}catch(e){}}
+$("form").oninput=function(e){var t=e.target;if(t.dataset.k)R[t.dataset.k]=t.value;else if(t.dataset.e!==undefined)R.exp[+t.dataset.e][t.dataset.f]=t.value;upd()};
+$("form").onclick=function(e){var a=e.target.dataset.a;if(a==="add"&&R.exp.length<4){R.exp.push(blank());buildForm();upd()}if(a==="del"){R.exp.splice(+e.target.dataset.e,1);buildForm();upd()}};
+$("tpls").querySelectorAll(".chip").forEach(function(b){b.onclick=function(){R.tpl=b.dataset.tp;upd()}});
+$("sample").onclick=function(){Object.assign(R,{name:"Maria Santos",title:"Hotel Housekeeper",place:"Santo Domingo, Dominican Republic",phone:"+1 809 555 0123",email:"maria.santos@email.com",sum:"Hard-working housekeeper with 5 years of hotel experience. Fast, careful, and always on time. Ready to work seasonal shifts in the USA.",exp:[{t:"Housekeeper",c:"Hotel Caribe, Punta Cana",d:"2021 to 2026",b:"Cleaned and prepared 16 rooms per shift\nTrained 4 new team members\nReceived Employee of the Month twice"},{t:"Kitchen Helper",c:"Restaurante La Plaza, Santo Domingo",d:"2019 to 2021",b:"Prepared ingredients and kept the kitchen clean\nFollowed food safety rules"}],edu:"Liceo Juan Pablo Duarte, High School Diploma, 2018",skills:"Room cleaning, laundry, teamwork, time management, customer service",lang:"Spanish (native), English (basic)"});buildForm();upd()};
+function makePdf(){var J=window.jspdf.jsPDF,d=new J({unit:"pt",format:"letter"}),W=612,H=792,M=48,y=M,w=W-2*M,md=R.tpl==="modern",ac=md?[206,17,38]:[0,0,0],K=[25,25,25],c=[R.place,R.phone,R.email].filter(Boolean).join("  |  ");
+function need(h){if(y+h>H-M){d.addPage();y=M}}
+function txt(t,sz,sy,x,col,mw){d.setFont("helvetica",sy);d.setFontSize(sz);d.setTextColor(col[0],col[1],col[2]);d.splitTextToSize(t,(mw||w)-x).forEach(function(l){need(sz*1.35);d.text(l,M+x,y+sz);y+=sz*1.35})}
+function sec(t){need(34);y+=8;d.setFont("helvetica","bold");d.setFontSize(11);d.setTextColor(ac[0],ac[1],ac[2]);d.text(t,M,y+11);d.setDrawColor(ac[0],ac[1],ac[2]);d.setLineWidth(1);d.line(M,y+16,W-M,y+16);y+=26}
+if(md){d.setFillColor(0,45,98);d.rect(0,0,W,100,"F");d.setTextColor(255,255,255);d.setFont("helvetica","bold");d.setFontSize(26);d.text(R.name||"Your Name",M,48);d.setFont("helvetica","normal");d.setFontSize(12);d.text(R.title||"",M,68);d.setFontSize(10);d.text(c,M,86);y=122}
+else{d.setTextColor(20,20,20);d.setFont("helvetica","bold");d.setFontSize(26);d.text(R.name||"Your Name",W/2,y+22,{align:"center"});d.setFont("helvetica","normal");d.setFontSize(12);d.text(R.title||"",W/2,y+40,{align:"center"});d.setFontSize(10);d.text(c,W/2,y+55,{align:"center"});y+=75}
+if(R.sum.trim()){sec("SUMMARY");txt(R.sum.trim(),10.5,"normal",0,K)}
+if(R.exp.some(function(e){return e.t||e.c})){sec("EXPERIENCE");R.exp.forEach(function(e){if(!(e.t||e.c))return;need(30);
+if(e.d){d.setFont("helvetica","normal");d.setFontSize(10);d.setTextColor(90,90,90);d.text(e.d,W-M,y+10.5,{align:"right"})}
+txt(e.t+(e.c?", "+e.c:""),10.5,"bold",0,K,e.d?w-110:w);
+lines(e.b).forEach(function(b){txt("•  "+b,10.5,"normal",10,K)});y+=5})}
+if(R.edu.trim()){sec("EDUCATION");lines(R.edu).forEach(function(x){txt(x,10.5,"normal",0,K)})}
+if(R.skills.trim()){sec("SKILLS");txt(R.skills.trim(),10.5,"normal",0,K)}
+if(R.lang.trim()){sec("LANGUAGES");txt(R.lang.trim(),10.5,"normal",0,K)}
+return d.output("arraybuffer")}
+function say(k){$("msg").textContent=T(k)}
+$("pdf").onclick=async function(){
+if(!window.jspdf){say("r_lib");return}
+var dl=null;try{dl=window.claude?await claude.use("downloads"):null}catch(e){}
+var fn=(R.name||"my").trim().replace(/[^\w]+/g,"_")+"_resume.pdf";
+if(dl){try{await dl.save({filename:fn,data:makePdf()});say("r_ok")}catch(e){say(e&&e.code==="declined"?"r_no":"r_er")}}
+else{say("r_pr");window.print()}};
+var IQ=[
+["Why do you want to work in the United States?","¿Por qué quieres trabajar en Estados Unidos?","Name the job and the season, and say you plan to go home to your family when the contract ends. Keep it short and true.","Menciona el trabajo y la temporada, y di que piensas volver con tu familia cuando termine el contrato. Corto y verdadero."],
+["Who is your employer and what will you do?","¿Quién es tu empleador y qué vas a hacer?","Know the company name, the city, your job title, and your main tasks by heart.","Sabe de memoria el nombre de la empresa, la ciudad, tu cargo y tus tareas principales."],
+["How long will you stay in the US?","¿Cuánto tiempo te quedarás en EE. UU.?","Give the exact dates from your approval notice. Do not guess.","Da las fechas exactas de tu aviso de aprobación. No adivines."],
+["What ties do you have to the Dominican Republic?","¿Qué vínculos tienes con la República Dominicana?","Mention real things: your family, your home, a job or studies waiting for you, property.","Menciona cosas reales: tu familia, tu casa, un trabajo o estudios que te esperan, propiedades."],
+["Have you been to the US before?","¿Has estado antes en EE. UU.?","Answer honestly, with dates if you have them. Honesty matters more than a perfect answer.","Responde con honestidad, con fechas si las tienes. La honestidad importa más que una respuesta perfecta."],
+["How much will you earn?","¿Cuánto vas a ganar?","Use the wage written in your job offer. If you do not remember, say what your offer letter says.","Usa el salario que dice tu oferta de trabajo. Si no lo recuerdas, di lo que dice tu carta de oferta."],
+["Who is paying for your trip?","¿Quién paga tu viaje?","Say the truth. If your employer promised to cover or reimburse costs, say that, and keep the written proof.","Di la verdad. Si tu empleador prometió cubrir o reembolsar costos, dilo y guarda la prueba por escrito."],
+["Do you have family in the US?","¿Tienes familia en EE. UU.?","Answer honestly. Do not hide anything, even if you think it could be a problem.","Responde con honestidad. No ocultes nada, aunque creas que puede ser un problema."]];
+var qi=0,flip=false;
+function prep(){var q=IQ[qi];$("qc").className="fcard"+(flip?" flip":"");
+$("qc").innerHTML=flip?'<div class="muted">'+T("tip")+"</div><p>"+P([q[2],q[3]])+"</p>":"<h2>"+q[0]+"</h2>"+(L==="es"?'<div class="muted">'+q[1]+"</div>":"")+'<div class="muted" style="margin-top:12px">'+T("tap")+"</div>";
+$("qn").textContent=(qi+1)+" / "+IQ.length}
+function speak(t){try{speechSynthesis.cancel();var u=new SpeechSynthesisUtterance(t);u.lang="en-US";speechSynthesis.speak(u)}catch(e){}}
+$("qc").onclick=function(){flip=!flip;prep()};
+$("nx").onclick=function(){qi=(qi+1)%IQ.length;flip=false;prep()};
+$("sh").onclick=function(){qi=Math.floor(Math.random()*IQ.length);flip=false;prep()};
+$("hear").onclick=function(){speak(IQ[qi][0])};
+var PH=[["int","Good morning. My name is ___.","Buenos días. Me llamo ___."],
+["int","I will work as a ___ for ___ from ___ to ___.","Voy a trabajar como ___ para ___ desde ___ hasta ___."],
+["int","I plan to return to the Dominican Republic when my contract ends.","Pienso volver a la República Dominicana cuando termine mi contrato."],
+["int","Could you please repeat the question?","¿Podría repetir la pregunta, por favor?"],
+["int","I don’t understand. Could you speak more slowly?","No entiendo. ¿Podría hablar más despacio?"],
+["int","Thank you for your time.","Gracias por su tiempo."],
+["mail","Hello, I saw your job listing for ___. I am interested in the position.","Hola, vi su anuncio de trabajo para ___. Me interesa el puesto."],
+["mail","Do you hire workers from the Dominican Republic with an H-2A or H-2B visa?","¿Contratan trabajadores de la República Dominicana con visa H-2A o H-2B?"],
+["mail","Could you tell me the pay, the dates, and the location?","¿Podría decirme el pago, las fechas y el lugar?"],
+["mail","Does the employer cover the recruitment and visa costs?","¿El empleador cubre los costos de reclutamiento y de visa?"],
+["mail","Thank you for your reply. I look forward to hearing from you.","Gracias por su respuesta. Quedo atento a su contestación."]];
+var PC=[["all","⭐ All","⭐ Todas"],["int","🎤 Interview","🎤 Entrevista"],["mail","✉️ Employer messages","✉️ Mensajes a empleadores"]],pcur="all";
+function phr(){var h="",c="";PC.forEach(function(x){c+='<button class="chip'+(x[0]===pcur?" on":"")+'" data-k="'+x[0]+'">'+P(x.slice(1))+"</button>"});
+PH.forEach(function(p,i){if(pcur==="all"||p[0]===pcur)h+='<div class="site"><button class="sp" data-s="'+i+'">🔊</button><b>'+esc(p[1])+'</b><div class="muted">'+esc(p[2])+"</div></div>"});
+$("pchips").innerHTML=c;$("phr").innerHTML=h;
+$("pchips").querySelectorAll(".chip").forEach(function(b){b.onclick=function(){pcur=b.dataset.k;phr()}})}
+$("phr").onclick=function(e){var s=e.target.dataset.s;if(s!==undefined)speak(PH[+s][1])};
+var MS=[[150,"Your employer starts the petition process","Tu empleador inicia el proceso de petición"],[75,"Approval notice in your hands","Aviso de aprobación en tus manos"],[70,"DS-160 filled out and fee paid","DS-160 llenado y tarifa pagada"],[45,"Visa interview done","Entrevista de visa realizada"],[21,"Visa in your passport, buy your ticket","Visa en el pasaporte, compra tu boleto"],[10,"Earliest day you can enter the US","Primer día en que puedes entrar a EE. UU."],[0,"First day of work 🎉","¡Primer día de trabajo! 🎉"]];
+function plan(){var v=$("sd").value,h="";
+if(v){var s=new Date(v+"T12:00:00"),now=new Date();now.setHours(12,0,0,0);
+MS.forEach(function(m){var d=new Date(s);d.setDate(d.getDate()-m[0]);var n=Math.round((d-now)/864e5);
+h+='<div class="site'+(n<0?" late":"")+'"><b>'+d.toLocaleDateString(L==="es"?"es-DO":"en-US",{month:"short",day:"numeric",year:"numeric"})+"</b> · "+P(m.slice(1))+'<div class="muted">'+(n<0?T("pl_late"):n===0?T("pl_today"):n+" "+T("pl_days"))+"</div></div>"})}
+$("tl").innerHTML=h}
+try{$("sd").value=localStorage.getItem("sd")||""}catch(e){}
+$("sd").onchange=function(){try{localStorage.setItem("sd",$("sd").value)}catch(e){}plan()};
+var BI=[["Visa application fee","Tarifa de solicitud de visa"],["Flight to the USA","Vuelo a EE. UU."],["Money for your first weeks","Dinero para tus primeras semanas"],["Other","Otros"]];
+var BV=[];try{BV=JSON.parse(localStorage.getItem("bv"))||[]}catch(e){}
+function tot(){var s=0;BV.forEach(function(x){s+=+x||0});$("bt").textContent="$"+s.toLocaleString("en-US")}
+function bud(){var h="";BI.forEach(function(b,i){h+="<label>"+P(b)+'<input type="number" min="0" inputmode="decimal" data-b="'+i+'" value="'+(BV[i]||"")+'"></label>'});$("bl").innerHTML=h;tot()}
+$("bl").oninput=function(e){var i=e.target.dataset.b;if(i===undefined)return;BV[+i]=e.target.value;tot();try{localStorage.setItem("bv",JSON.stringify(BV))}catch(x){}};
+var VW={map:"mapview",res:"resview",prep:"prepview",plan:"planview"};
+function view(v){for(var k in VW)$(VW[k]).hidden=k!==v;$("nav").querySelectorAll(".chip").forEach(function(b){b.classList.toggle("on",b.dataset.v===v)});window.scrollTo(0,0)}
+$("nav").querySelectorAll(".chip").forEach(function(b){b.onclick=function(){view(b.dataset.v)}});
+function setLang(l){L=l;try{localStorage.setItem("vl",l)}catch(e){}document.documentElement.lang=l;
+document.querySelectorAll("[data-t]").forEach(function(e){e.innerHTML=T(e.dataset.t)});
+$("lang").querySelectorAll(".chip").forEach(function(b){b.classList.toggle("on",b.dataset.l===l)});
+ans.length>=Q.length?show():ask();jobs();buildForm();upd();prep();phr();plan();bud()}
+$("lang").querySelectorAll(".chip").forEach(function(b){b.onclick=function(){setLang(b.dataset.l)}});
+setLang(L);
+view({"#resume":"res","#interview":"prep","#planner":"plan"}[location.hash]||"map");
+window.scrollTo(0,0);
+</script></body></html>
